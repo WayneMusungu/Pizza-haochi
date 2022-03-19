@@ -51,3 +51,11 @@ body{
 .hide{
   display:none;
 }
+/* ORDER SECTION */
+form{
+  text-align: center;
+  padding-top: 40px;
+}
+form h2{
+  font: x-large;
+}
