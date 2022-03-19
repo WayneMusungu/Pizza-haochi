@@ -23,3 +23,15 @@
   text-align: center;
   font: x-large;
 }
+/* Menu Section */
+#menu h1{
+  text-align: center;
+  font-size: 70px;
+  color:black;
+  font-weight: bolder;
+}
+#menu p{
+  color: black;
+  text-align: center;
+  font: x-large;
+}
