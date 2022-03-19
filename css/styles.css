@@ -1,22 +1,19 @@
- span {
-    color: red;
-  }
-  
-  .heading {
-    color: white;
-    font-family: "Nosifer", cursive
-  }
-
-.navbar {
-    /* position: fixed; */
-    /* overflow: hidden; */
-    background-color: #333;
-    border-bottom: whitesmoke solid 4px;
-    width: 100%;
-    top: 0;
-  }
-  .navbar a:hover {
-    background: #ddd;
-    transform: scale(1.1);
-    color: black;
-  }
+#home{
+  background-attachment: fixed;
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-image:url("..//images/background\ black2.jpg");
+}
+#home h1{
+  text-align: center;
+  font-size: 70px;
+  color:white;
+  font-weight: bolder;
+}
+#home p{
+  color: white;
+  text-align: center;
+  font: x-large;
+}
