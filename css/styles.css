@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* HOME SECTION */
 #home{
   background-attachment: fixed;
   background-position:center ;
@@ -23,7 +24,7 @@
   text-align: center;
   font: x-large;
 }
-/* Menu Section */
+/* MENU SECTION */
 #menu h1{
   text-align: center;
   font-size: 70px;
@@ -38,8 +39,11 @@
 #menu img{
   width: 100%;
   height: 55vh;
+  cursor: pointer;
 }
 #menu h3{
   text-align: center;
-
+}
+.hide{
+  display:none;
 }
