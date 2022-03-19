@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Body */
+body{
+  background-color: bisque !important;
+}
 /* HOME SECTION */
 #home{
   background-attachment: fixed;
@@ -25,11 +29,11 @@
   font: x-large;
 }
 /* MENU SECTION */
-#menu h1{
+#menu h2{
+  padding-top: 40px;
   text-align: center;
-  font-size: 70px;
+  font:x-large;
   color:black;
-  font-weight: bolder;
 }
 #menu p{
   color: black;
