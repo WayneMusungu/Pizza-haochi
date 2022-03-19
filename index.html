@@ -53,9 +53,9 @@
                 All our pizzas, excluding Speciality, are made with original bases unless you choose otherwise, at
                 Pizza-haochi we offer three types of crusts namely:
               <ul>
-                <li>Crispy <strong>100/=</strong></li>
-                <li>Stuffed <strong>200/=</strong></li>
-                <li>Glutten free<strong>150/=</strong></li>
+                <li>Crispy <strong>100 ksh</strong></li>
+                <li>Stuffed <strong>150 ksh</strong></li>
+                <li>Glutten free <strong>200 ksh</strong></li>
               </ul>
               </p>
             </div>
@@ -69,11 +69,11 @@
                 The size of the pizza you order will determine how many slices you can expect each pie to serve:
               <ul>
                 <li>Small pizzas average between 8 and 10 inches in diameter and will yield about six slices.
-                  <strong>500Ksh</strong></li>
+                  <strong>500 ksh</strong></li>
                 <li>Medium pizzas run 12 inches in diameter and will give you about eight slices.
-                  <strong>750Ksh</strong></li>
+                  <strong>750 ksh</strong></li>
                 <li>Large pizzas are 14 inches in diameter and will offer approximately ten slices.
-                  <strong>1200Ksh</strong></li>
+                  <strong>1250 ksh</strong></li>
               </ul>
               </p>
             </div>
@@ -87,13 +87,11 @@
                 No one wants an argument over pizza toppings.To avoid pizza wars in your household, get everyone to give
                 you their topping preferences before you place your order. We offer the following toppings:
               <ul>
-                <li>Pepperoni</li>
-                <li>Mushrooms</li>
-                <li>Bacon</li>
-                <li>Sausages</li>
-                <li>Green pepper</li>
-                <li>Extra cheese</li>
-                <li>Spinach</li>
+                <li>Pepperoni <strong>80 ksh</strong></li>
+                <li>Mushrooms <strong>60 ksh</strong></li>
+                <li>Bacon <strong>100 ksh</strong></li>
+                <li>Extra cheese <strong>120 ksh</strong></li>
+                <li>Spinach <strong>90 ksh</strong></li>
               </ul>
               </p>
             </div>
@@ -104,49 +102,60 @@
 
     <!-- ORDER SECTION -->
     <div class="container">
-      <div id="form">
-        <form>
-          <h2>MAKE AN ORDER</h2>
-          <div class="row">
-            <div class="col-md-4">
-              <label for="crust type">Crust type</label>
-              <select class="browser-default custom-select" id="crust type">
-                <option value="">Choose Option</option>
-                <option value="100">Crispy = 100Ksh</option>
-                <option value="150">Glutten free = 150ksh</option>
-                <option value="200">Stuffed = 200ksh</option>
-              </select><br> 
+      <div class="wrap">
+          <form id="form1">
 
+              <h2>MAKE AN ORDER</h2>
+              <div class="form-select">
+                  <label>Select the size of your pizza:</label>
+                  <select class="form-control" id="size">
+                          <option value="0">Small @ ksh 500</option>
+                          <option value="1">Medium @ ksh 750</option>
+                          <option value="2">Large @ ksh 1250</option>
+                      </select>
+              </div>
+              <div class="form-select">
+                  <label>Choose your favorite crust:</label>
+                  <select class="form-control" id="crust">
+                          <option value="0">Cripsy @ ksh 100</option>
+                          <option value="1">Stuffed @ ksh 150</option>
+                          <option value="2">Gluten-free @ ksh 200</option>
+                      </select>
+              </div>
+              <div class="form-select">
+                  <label>Choose your favorite topping:</label>
+                  <select class="form-control" id="topping">
+                          <option value="0">Pepperoni @ ksh 80</option>
+                          <option value="1">Mushrooms @ ksh 60</option>
+                          <option value="2">Bacon @ ksh 100</option>
+                          <option value="3">Extra cheese @ ksh 120</option>
+                          <option value="4">Spinach @ ksh 90</option>
+                      </select>
+              </div>
+              <div class="form-select" required>
+                  <label>Number of pizza:</label>
+                  <input type="number" id="num" class="form-control" min="1" required>
+              </div>
+              <div class="form-select" required>
+                  <label>option for delivery:</label>
+                  <select class="form-control" id="mode">
+                          <option value="0">delivery @ ksh 300</option>
+                          <option value="1">pick-up</option>
+                      </select>
+              </div>
 
-            </div>
-            <div class="col-md-4">
-              <label for="size">Size</label>
-              <select class="browser-default custom-select" id="size">
-                <option value="">Choose Option</option>
-                <option value="500">Small = 500Ksh</option>
-                <option value="750">Medium = 750ksh</option>
-                <option value="1200">Large = 1200ksh</option>
-              </select><br>
+              <div class="form-group">
+                  <button type="submit" class="btn btn-primary
+                          checkout" id="checkout"> Kindly place an
+                          Order</button>
 
-            </div>
+              </div>
 
-            <div class="col-md-4">
-              <label for="toppings">Toppings</label>
-              <select class="browser-default custom-select" id="toppings">
-                <option value="">Choose Option</option>
-                <option value="">Pepperoni</option>
-                <option value="">Mushrooms</option>
-                <option value="">Bacon</option>
-                <option value="">Extra cheese</option>
-              </select><br>
-
-
-            </div><br><br><br><br><br><br>
-          </div>
-        </form>
-
+          </form>
       </div>
     </div>
+
+  
 
   </div>
 </body>

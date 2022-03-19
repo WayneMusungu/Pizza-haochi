@@ -52,10 +52,6 @@ body{
   display:none;
 }
 /* ORDER SECTION */
-form{
+#form_A{
   text-align: center;
-  padding-top: 40px;
-}
-form h2{
-  font: x-large;
 }
