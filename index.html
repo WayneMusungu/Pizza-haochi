@@ -69,11 +69,14 @@
                 The size of the pizza you order will determine how many slices you can expect each pie to serve:
               <ul>
                 <li>Small pizzas average between 8 and 10 inches in diameter and will yield about six slices.
-                  <strong>500 ksh</strong></li>
+                  <strong>500 ksh</strong>
+                </li>
                 <li>Medium pizzas run 12 inches in diameter and will give you about eight slices.
-                  <strong>750 ksh</strong></li>
+                  <strong>750 ksh</strong>
+                </li>
                 <li>Large pizzas are 14 inches in diameter and will offer approximately ten slices.
-                  <strong>1250 ksh</strong></li>
+                  <strong>1250 ksh</strong>
+                </li>
               </ul>
               </p>
             </div>
@@ -103,59 +106,56 @@
     <!-- ORDER SECTION -->
     <div class="container">
       <div class="wrap">
-          <form id="form1">
+        <form id="form1">
 
-              <h2>MAKE AN ORDER</h2>
-              <div class="form-select">
-                  <label>Select the size of your pizza:</label>
-                  <select class="form-control" id="size">
-                          <option value="0">Small @ ksh 500</option>
-                          <option value="1">Medium @ ksh 750</option>
-                          <option value="2">Large @ ksh 1250</option>
-                      </select>
-              </div>
-              <div class="form-select">
-                  <label>Choose your favorite crust:</label>
-                  <select class="form-control" id="crust">
-                          <option value="0">Cripsy @ ksh 100</option>
-                          <option value="1">Stuffed @ ksh 150</option>
-                          <option value="2">Gluten-free @ ksh 200</option>
-                      </select>
-              </div>
-              <div class="form-select">
-                  <label>Choose your favorite topping:</label>
-                  <select class="form-control" id="topping">
-                          <option value="0">Pepperoni @ ksh 80</option>
-                          <option value="1">Mushrooms @ ksh 60</option>
-                          <option value="2">Bacon @ ksh 100</option>
-                          <option value="3">Extra cheese @ ksh 120</option>
-                          <option value="4">Spinach @ ksh 90</option>
-                      </select>
-              </div>
-              <div class="form-select" required>
-                  <label>Number of pizza:</label>
-                  <input type="number" id="num" class="form-control" min="1" required>
-              </div>
-              <div class="form-select" required>
-                  <label>option for delivery:</label>
-                  <select class="form-control" id="mode">
-                          <option value="0">delivery @ ksh 300</option>
-                          <option value="1">pick-up</option>
-                      </select>
-              </div>
+          <h2>MAKE AN ORDER</h2>
+          <div class="form-select">
+            <label>Select the size of your pizza:</label>
+            <select class="form-control" id="size">
+              <option value="0">Small</option>
+              <option value="1">Medium</option>
+              <option value="2">Large</option>
+            </select>
+          </div>
+          <div class="form-select">
+            <label>Choose your favorite crust:</label>
+            <select class="form-control" id="crust">
+              <option value="0">Cripsy</option>
+              <option value="1">Stuffed</option>
+              <option value="2">Gluten-free</option>
+            </select>
+          </div>
+          <div class="form-select">
+            <label>Choose your favorite topping:</label>
+            <select class="form-control" id="topping">
+              <option value="0">Pepperoni</option>
+              <option value="1">Mushrooms</option>
+              <option value="2">Bacon</option>
+              <option value="3">Extra cheese</option>
+              <option value="4">Spinach</option>
+            </select>
+          </div>
+          <div class="form-select" required>
+            <label>Number of pizza:</label>
+            <input type="number" id="num" class="form-control" min="1" required>
+          </div>
+          <div class="form-select" required>
+            <label>option for delivery:</label>
+            <select class="form-control" id="mode">
+              <option value="0">delivery @ ksh 300</option>
+              <option value="1">pick-up</option>
+            </select>
+          </div>
 
-              <div class="form-group">
-                  <button type="submit" class="btn btn-primary
-                          checkout" id="checkout"> Kindly place an
-                          Order</button>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary checkout" id="checkout">Order</button>
+          </div>
 
-              </div>
-
-          </form>
+        </form>
       </div>
     </div>
 
-  
+
 
   </div>
 </body>
