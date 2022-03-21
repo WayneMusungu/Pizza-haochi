@@ -20,7 +20,7 @@ Install git on your pc
 
 ##### Setup Instructions and Installation
 
-- Clone this repository to a location in your file system. `git clone `
+- Clone this repository to a location in your file system. `git clone https://github.com/WayneMusungu/Pizza-haochi.git`
 - Open terminal command line then navigate to the root folder of the application. `Pizza-haochi`
 - Open `index.html` on your Browser.
 
